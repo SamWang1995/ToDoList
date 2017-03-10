@@ -53,6 +53,9 @@ function newElement() {
     }
   }
 }
+document.getElementById('ham').addEventListener('click', function (e) {
+  openNav();
+});
 
 /* Open the sidenav */
 function openNav() {

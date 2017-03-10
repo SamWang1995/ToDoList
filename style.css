@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-	background-color: #F8BBD0;
-}
 
 p {
 	text-decoration-color: white;
@@ -29,7 +26,7 @@ ul li {
     font-size: 18px;
     transition: 0.2s;
     border-color: #BDBDBD;
-    
+
     /* make the list items unselectable */
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -187,4 +184,14 @@ input {
 *:-ms-input-placeholder {
     /* IE 10+ */
     color: #757575;
+}
+
+#ham{
+  width: 3%;
+  float:left;
+}
+
+#theHeader{
+  font-family: 'Oleo Script', cursive;
+  font-size: 44px;
 }
