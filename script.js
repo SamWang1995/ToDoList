@@ -53,6 +53,27 @@ function newElement() {
     }
   }
 }
+
+document.getElementById('one').addEventListener('click', function (b){
+  $("li").empty();
+  document.getElementById("mySidenav").style.width = "0%";
+});
+
+document.getElementById('two').addEventListener('click', function (b){
+  $("li").empty();
+  document.getElementById("mySidenav").style.width = "0%";
+});
+
+document.getElementById('three').addEventListener('click', function (b){
+  $("li").empty();
+  document.getElementById("mySidenav").style.width = "0%";
+});
+
+document.getElementById('four').addEventListener('click', function (b){
+  $("li").empty();
+  document.getElementById("mySidenav").style.width = "0%";
+});
+
 document.getElementById('ham').addEventListener('click', function (e) {
   openNav();
 });
